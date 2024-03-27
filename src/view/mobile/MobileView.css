@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 .mobile-desktop-page {
     height: 220vh;
     width: 100vw;
@@ -79,7 +83,7 @@
 }
 
 .mobile-search-field {
-    width: 90%;
+    width: 88%;
     height: 3rem;
     display: flex;
     flex-direction: row;
@@ -89,6 +93,9 @@
     border-radius: 7px;
     gap: 5px;
     margin-top: 5%;
+    margin-left: 5%;
+    background-color: white;
+    padding-left: 2%;
 
 
 }
@@ -116,9 +123,16 @@
 .mobile-search-field input {
     border: none;
     height: 90%;
-    width: 100%;
+    width: 90%;
     outline: none;
     font-family: 'Inter';
+    font-size: 1rem;
+    color: #9D9FA1;
+}
+
+.mobile-search-field input::placeholder {
+    font-size: 1rem;
+    color: #9D9FA1;
 }
 
 .mobile-menu-options {
