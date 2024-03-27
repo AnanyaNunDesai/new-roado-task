@@ -195,9 +195,11 @@ const DesktopView = () => {
                             series={[
                                 {
                                     data: y1,
+                                    showMark: false,
                                 },
                                 {
-                                    data: y2
+                                    data: y2,
+                                    showMark: false,
                                 }
                             ]}
                             height={200}

@@ -1,5 +1,4 @@
 .desktop-page {
-    /*TODO: Fix*/
     height: 100vh;
     width: 100%;
     display: flex;
@@ -10,10 +9,8 @@
     display: flex;
     flex-direction: column;
     width: calc(100vw - 16vw);
-    /* Adjusted for sidebar width */
     align-items: center;
     overflow-y: auto;
-    /* Allow content scrolling */
 }
 
 .sidebar {
@@ -33,7 +30,6 @@
     padding-left: 2rem;
     padding-top: 1rem;
     overflow-y: auto;
-    /* Allow sidebar content scrolling */
 }
 
 .side-navi {
@@ -51,7 +47,6 @@
     font-size: 12px;
     color: #9D9FA1;
     margin: 15%;
-    /* padding-left: 2rem; */
 }
 
 .section {
@@ -106,7 +101,6 @@
     margin: 8%;
 }
 
-/*TODO: Adjust margin/padding*/
 .menu {
     height: 7vh;
     width: 95%;
@@ -154,7 +148,6 @@
     position: relative;
 }
 
-/*TODO: Move outside of icon*/
 .notif-indicator {
     position: absolute;
     background-color: #E25563;
@@ -169,7 +162,6 @@
     position: relative;
 }
 
-/*TODO: Clip to have bottom right chomped in a circle*/
 .avatar-portrait {
     height: 35px;
     clip-path: circle();
@@ -414,13 +406,11 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* Adjust column count as needed */
     align-items: center;
     color: #5F6980;
     border-bottom: 1px solid #EAECF0;
     gap: 10px;
     padding-left: 2rem;
-    /* Adjust the gap between columns */
 }
 
 .applist-keys {
@@ -438,7 +428,6 @@
 
 .app-box {
     width: 40px;
-    /* Adjust the width of the app icon box */
     height: 40px;
     border-radius: 10px;
     background-color: white;

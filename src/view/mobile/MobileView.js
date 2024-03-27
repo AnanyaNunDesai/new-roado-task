@@ -30,84 +30,84 @@ const MobileView = () => {
     const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
     return (
-        <div className='desktop-page'>
-            <div className='desktop-content'>
-                <div className='menu'>
-                    <div className='side-area'>
+        <div className='mobile-page'>
+            <div className='mobile-content'>
+                <div className='mobile-menu'>
+                    <div className='mobile-side-area'>
                         <ClonifyLogo />
                     </div>
-                    <div className='menu-options'>
-                        <div className='avatar'>
-                            <div className='avatar-portrait'>
+                    <div className='mobile-menu-options'>
+                        <div className='mobile-avatar'>
+                            <div className='mobile-avatar-portrait'>
                                 <img src={Avatar} alt='Avatar' />
                             </div>
-                            <div className='avatar-indicator' />
+                            <div className='mobile-avatar-indicator' />
                         </div>
                     </div>
                 </div>
-                <div className='search-field'>
+                <div className='mobile-search-field'>
                     <SearchIcon />
                     <input
                         placeholder='Search...'
                     />
                 </div>
-                <div className='banner'>
-                    <div className='banner-text'>
-                        <p className='banner-heading'>Unlock premium stats</p>
-                        <p className='banner-detail'>Get up to 10TB of storage for a limited time</p>
+                <div className='mobile-banner'>
+                    <div className='mobile-banner-text'>
+                        <p className='mobile-banner-heading'>Unlock premium stats</p>
+                        <p className='mobile-banner-detail'>Get up to 10TB of storage for a limited time</p>
                     </div>
-                    <div className='upgrade-button'>
+                    <div className='mobile-upgrade-button'>
                         <BoltIcon />
-                        <p className='upgrade-text'>Upgrade</p>
+                        <p className='mobile-upgrade-text'>Upgrade</p>
                     </div>
                 </div>
-                <div className='metrics'>
-                    <div className='metrics-card'>
-                        <div className='metrics-header'>
-                            <p className='metrics-title'>Revenue</p>
-                            <p className='metrics-value'>$56,945</p>
+                <div className='mobile-metrics'>
+                    <div className='mobile-metrics-card'>
+                        <div className='mobile-metrics-header'>
+                            <p className='mobile-metrics-title'>Revenue</p>
+                            <p className='mobile-metrics-value'>$56,945</p>
                         </div>
-                        <div className='metrics-footer'>
-                            <div className='stat-badge positive'>+45%</div>
-                            <p className='from-stat'>From 4.6%</p>
-                        </div>
-                    </div>
-                    <div className='metrics-card'>
-                        <div className='metrics-header'>
-                            <p className='metrics-title'>Users</p>
-                            <p className='metrics-value'>76.8%</p>
-                        </div>
-                        <div className='metrics-footer'>
-                            <div className='stat-badge negative'>-1.7%</div>
-                            <p className='from-stat'>From 4.6%</p>
+                        <div className='mobile-metrics-footer'>
+                            <div className='mobile-stat-badge positive'>+45%</div>
+                            <p className='mobile-from-stat'>From 4.6%</p>
                         </div>
                     </div>
-                    <div className='metrics-card'>
-                        <div className='metrics-header'>
-                            <p className='metrics-title'>New Signups</p>
-                            <p className='metrics-value'>116</p>
+                    <div className='mobile-metrics-card'>
+                        <div className='mobile-metrics-header'>
+                            <p className='mobile-metrics-title'>Users</p>
+                            <p className='mobile-metrics-value'>76.8%</p>
                         </div>
-                        <div className='metrics-footer'>
-                            <div className='stat-badge neutral'>0.00</div>
+                        <div className='mobile-metrics-footer'>
+                            <div className='mobile-stat-badge negative'>-1.7%</div>
+                            <p className='mobile-from-stat'>From 4.6%</p>
                         </div>
                     </div>
-                    <div className='metrics-card'>
-                        <div className='metrics-header'>
-                            <p className='metrics-title'>Retention</p>
-                            <p className='metrics-value'>12.67%</p>
+                    <div className='mobile-metrics-card'>
+                        <div className='mobile-metrics-header'>
+                            <p className='mobile-metrics-title'>New Signups</p>
+                            <p className='mobile-metrics-value'>116</p>
                         </div>
-                        <div className='metrics-footer'>
-                            <div className='stat-badge positive'>+0.6%</div>
-                            <p className='from-stat'>From 4.6%</p>
+                        <div className='mobile-metrics-footer'>
+                            <div className='mobile-stat-badge neutral'>0.00</div>
+                        </div>
+                    </div>
+                    <div className='mobile-metrics-card'>
+                        <div className='mobile-metrics-header'>
+                            <p className='mobile-metrics-title'>Retention</p>
+                            <p className='mobile-metrics-value'>12.67%</p>
+                        </div>
+                        <div className='mobile-metrics-footer'>
+                            <div className='mobile-stat-badge positive'>+0.6%</div>
+                            <p className='mobile-from-stat'>From 4.6%</p>
                         </div>
                     </div>
                 </div>
-                <div className='perf-chart'>
-                    <div className='content-header'>
-                        <p className='content-title'>Performance</p>
+                <div className='mobile-perf-chart'>
+                    <div className='mobile-content-header'>
+                        <p className='mobile-content-title'>Performance</p>
                         <VerticalDotsIcon />
                     </div>
-                    <div className='content-body'>
+                    <div className='mobile-content-body'>
                         <LineChart
                             xAxis={[{ scaleType: 'band', data: days }]}
                             series={[
@@ -122,14 +122,14 @@ const MobileView = () => {
                         />
                     </div>
                 </div>
-                <div className='applist'>
-                    <div className='content-header'>
-                        <p className='content-title'>Installed apps</p>
+                <div className='mobile-applist'>
+                    <div className='mobile-content-header'>
+                        <p className='mobile-content-title'>Installed apps</p>
                         <VerticalDotsIcon />
                     </div>
-                    <div className='applist-container'>
-                        <div className='content-body'>
-                            <div className='applist-row applist-keys'>
+                    <div className='mobile-applist-container'>
+                        <div className='mobile-content-body'>
+                            <div className='mobile-applist-row applist-keys'>
                                 <p>Source</p>
                                 <p>Amount</p>
                                 <p>Status</p>
@@ -137,67 +137,67 @@ const MobileView = () => {
                                 <p>Joined</p>
                                 <p>Group</p>
                             </div>
-                            <div className='applist-row'>
-                                <div className='source-row'>
-                                    <div className='app-box'>
+                            <div className='mobile-applist-row'>
+                                <div className='mobile-source-row'>
+                                    <div className='mobile-app-box'>
                                         <ZepplinIcon />
                                     </div>
-                                    <p className='app-name'>Zepplin</p>
+                                    <p className='mobile-app-name'>Zepplin</p>
                                 </div>
                                 <p>686.00</p>
-                                <div className='stat-badge-positive'>Active</div>
+                                <div className='mobile-stat-badge-positive'>Active</div>
                                 <p>114423</p>
                                 <p>October</p>
                                 <p>Design</p>
                             </div>
-                            <div className='applist-row'>
-                                <div className='source-row'>
-                                    <div className='app-box'>
+                            <div className='mobile-applist-row'>
+                                <div className='mobile-source-row'>
+                                    <div className='mobile-app-box'>
                                         <FigmaIcon />
                                     </div>
-                                    <p className='app-name'>Figma</p>
+                                    <p className='mobile-app-name'>Figma</p>
                                 </div>
                                 <p>864.00</p>
-                                <div className='stat-badge-pending'>Pending</div>
+                                <div className='mobile-stat-badge-pending'>Pending</div>
                                 <p>76223</p>
                                 <p>June</p>
                                 <p>Finance</p>
                             </div>
-                            <div className='applist-row'>
-                                <div className='source-row'>
-                                    <div className='app-box'>
+                            <div className='mobile-applist-row'>
+                                <div className='mobile-source-row'>
+                                    <div className='mobile-app-box'>
                                         <MetaIcon />
                                     </div>
-                                    <p className='app-name'>Meta</p>
+                                    <p className='mobile-app-name'>Meta</p>
                                 </div>
                                 <p>176.00</p>
-                                <div className='stat-badge-negative'>Cancelled</div>
+                                <div className='mobile-stat-badge-negative'>Cancelled</div>
                                 <p>89453</p>
                                 <p>March</p>
                                 <p>Coding</p>
                             </div>
-                            <div className='applist-row'>
-                                <div className='source-row'>
-                                    <div className='app-box'>
+                            <div className='mobile-applist-row'>
+                                <div className='mobile-source-row'>
+                                    <div className='mobile-app-box'>
                                         <AngularIcon />
                                     </div>
-                                    <p className='app-name'>Angular</p>
+                                    <p className='mobile-app-name'>Angular</p>
                                 </div>
                                 <p>49.00</p>
-                                <div className='stat-badge-positive'>Active</div>
+                                <div className='mobile-stat-badge-positive'>Active</div>
                                 <p>11467</p>
                                 <p>February</p>
                                 <p>Marketing</p>
                             </div>
-                            <div className='applist-row'>
-                                <div className='source-row'>
-                                    <div className='app-box'>
+                            <div className='mobile-applist-row'>
+                                <div className='mobile-source-row'>
+                                    <div className='mobile-app-box'>
                                         <VueIcon />
                                     </div>
-                                    <p className='app-name'>Vue</p>
+                                    <p className='mobile-app-name'>Vue</p>
                                 </div>
                                 <p>999.00</p>
-                                <div className='stat-badge-positive'>Active</div>
+                                <div className='mobile-stat-badge-positive'>Active</div>
                                 <p>67385</p>
                                 <p>October</p>
                                 <p>Finance</p>
